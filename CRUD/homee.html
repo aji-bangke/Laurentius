@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<div id="dashboard">
+<head>
+	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Viga&display=swap" rel="stylesheet">
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+header{ 
+	width: 100%;
+	text-align: left;
+	height: 150px;
+	font-size: 50px;
+	background: url(musik.JPG);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	font-family: Palatino Linotype;
+}
+
+h4{
+	padding-left: 40px;
+	color: white;
+	text-align: center;
+}
+	
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+	font-size: 120%;	
+}
+li{
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Palatino Linotype;
+   	transition: width 0.5s;
+   	width: 50px;
+   	font-family: serif;
+   	border-radius: 10px;			
+}
+li a:hover{
+	background-color: black;
+	width: 70px;
+}
+article{
+	background-color:rgba(255,255,255,0.8);
+	padding: 30px;
+}
+footer{
+	font-family: Palatino Linotype;
+	display: block;
+	background-color: black;
+	color: white;
+		
+	text-decoration: none;
+	padding: 15px;
+}
+.kopi{
+	margin: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+body{
+	font-family: Palatino Linotype;
+	padding: 10px;
+	margin: 10px;
+	
+}
+p{
+	font-family: Palatino Linotype;
+	text-align: center;
+}
+
+.m{
+	font-size: 20px;
+	color: whitesmoke;
+	text-align: center;
+}
+form {
+    width: 200px; 
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+.search {
+    background-color: white;
+    border: 1px solid white;
+    width: 70%;
+
+}
+.button {
+    position:relative;
+    border:2px solid  #53bd84;
+    background-color: #53bd84;
+    color: #fafafa;
+    width: 50px;
+}
+.button:hover  {
+    background-color: darkgreen;
+    color: #207cca;
+}
+.gradien{
+	background: linear-gradient(to bottom, #33ccff 0%, whitesmoke 100%);
+	width: 100%;
+	height: 400px;
+}
+h1{
+	text-align: left;
+	padding-top: 150px;
+	padding-left: 25%;
+	text-shadow: 2px 2px;
+}
+h3{
+	text-align: right;
+	padding-top: 135px;
+	padding-right: 33%;
+}
+h5{
+	color: black;
+}
+
+.a{
+	text-align: center;
+	display: block;	
+	font-size: 20px;
+	text-decoration: none;
+}
+.gitar{
+	position: absolute;
+	width: 30%;
+	left : 50%;
+}
+p{
+	text-align: right;
+}
+.a-slider { 
+
+	position: relative; 
+	overflow: hidden; 
+	
+}
+ 
+.a-slider { 
+	margin: 20px auto;
+	width: 768px;
+	height: 450px; 
+}  
+ 
+.isi-slider img { 
+	width: 768px;
+	height: 450px; 
+	float: left;
+}
+ 
+.isi-slider { 
+	position: absolute; 
+	width: 3000px;  
+ 
+	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+	animation-name: slider;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.isi-slider:hover { 
+		animation-play-state: running;
+}
+
+ 
+.a-slider:after { 
+	font-size: 150px; 
+	position: absolute; 
+	z-index: 12; 
+	color: rgba(255,255,255, 0); 
+	left: 300px; top: 80px; 
+	transition: 1s all ease-in-out; 
+}
+.a-slider:hover:after { 
+	color: rgba(255,255,255, 0.6);  
+}
+@keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}     
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0; 
+	} 
+ 
+	100% {
+		left: 0; opacity: 0; 
+	}
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+
+	<h4>Musik Indo</h4>
+		<div class="m"><marquee width="500" height="40">Berbicara tentang Musik Filosopi</marquee></div>
+		
+</header>
+
+	<ul>   
+		<li><a href="indeks.php">Home</a></li>
+		<li><a href="Profill.html">Profil</a></li>
+		<li><a href="Lagu.html">Lagu</a></li>
+		<li><a href="video.html">Video</a></li>
+			<form>
+ 			 		<input class="search" type="text" placeholder="Cari..." required>	
+ 			 		<input class="button" type="button" value="Cari">		
+			</form>
+	</ul>
+<img class="gitar" src="guitar.PNG">
+
+	
+		<div class="gradien">
+			<h1>Welcome To My Web</h1>
+			<h3>Talk About Music</h3>
+		</div>
+		<div class="a-slider">
+				<div class=isi-slider>
+					<img src="z.JPG">
+					<img src="x.JPG">
+					<img src="c.JPG">
+				</div>
+		</div>
+	<article>
+		<div class="a">
+	<img class="kopi" src="koppi.JPG">
+	<span><h5>Filosopi Kopi</h5></span><br>
+	
+	<img class="kopi" src="b.JPG">
+	<a href="filosopixfourtwnty.html"><h5>Apa sih Hubungan Filosopi Kopi dengan Band yang melejit ini?</h5></a>
+		</div>
+	</article>
+
+	
+<footer>
+	<span>Filosopi Kopi</span>
+	<p>Created by <a href="https://www.instagram.com/lauren_aji11">AjiBangke</a></p>
+
+</footer>
+</body>
+</div>
+</html> 
